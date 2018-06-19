@@ -1,0 +1,36 @@
+<head>
+    <title>Timestamp microservice</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcun icon" href="img/fav-20.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+</head>
+<div class="contained">
+    <div class="cfx">
+        <a href="https://www.freecodecamp.org/">
+            <img class="fcc-ico" 
+                 src="https://cdn-images-1.medium.com/max/1200/1*B6_f-_SxscJ9FCuIjOrQAQ.jpeg" 
+                 alt="fcc-logo"
+                 target="_blank">
+        </a>
+        <p class="fcc-title">Apis and Microservices Projects</p> 
+    </div>
+    
+    <h1>File Metadata Microservice</h1>
+    <h3>
+        Submit a file and receive the file name, and size in bytes within the JSON response.
+    </h3>
+    <h4 class="mrg-top">Example usage:</h2>
+    <form method="post" action="/api/readmyfile" name="submit" enctype="multipart/form-data">
+        <input type="file" name="upfile"><br/>
+        <input type="submit" name="submit" value="submit">
+    </form>
+    
+    <h4 class="mrg-top">Example output:</h2>
+    <p class="snipet">
+        { <br/> 
+        "name": "fav-17.png", <br/>
+        "type": "image/png" <br/>
+        "size": "4744" <br/>
+        }
+    </p>
+</div>

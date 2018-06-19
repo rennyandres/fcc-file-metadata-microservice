@@ -1,0 +1,15 @@
+{
+  "name": "request-header-parser",
+  "version": "0.1.0",
+  "description": "FreeCodeCamp's file metadata microservice",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": "https://github.com/rennyandres/file-metadata-microservice",
+  "author": "Renny Andres",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "~3.2.4"
+  }
+}
