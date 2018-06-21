@@ -22,9 +22,9 @@ app.get('/', function(req, res) {
 app.post('/api/readthisfile', function(req, res) {
     if(req.files) {
         res.send({
-            "name": req.files.file.name,
-            "type": req.files.file.mimetype,
-            "size": req.files.file.data.length
+            "name": req.files.upfile.name,
+            "type": req.files.upfile.mimetype,
+            "size": req.files.upfile.data.length
         });
     }
     else {

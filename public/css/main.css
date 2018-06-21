@@ -43,3 +43,9 @@ h4 {margin-bottom: 0;}
   display: table;
   clear: both;
 }
+
+input[type="file"], input[type="submit"] {
+    font-family: inherit;
+    font-size: inherit;
+    margin: 10px 0;
+}
